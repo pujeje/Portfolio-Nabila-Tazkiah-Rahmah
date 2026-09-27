@@ -16,11 +16,12 @@ export default function App() {
   const [data, setData] = useState<PortfolioData>(() => {
     // Clear out outdated previous cache versions if present
     try {
+      localStorage.removeItem('nabila_porto_v6');
       localStorage.removeItem('nabila_porto_v5_en');
       localStorage.removeItem('nabila_porto_v4_en');
     } catch (_) {}
 
-    const saved = localStorage.getItem('nabila_porto_v6');
+    const saved = localStorage.getItem('nabila_porto_v7');
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -79,7 +80,7 @@ export default function App() {
 
   useEffect(() => {
     try {
-      localStorage.setItem('nabila_porto_v6', JSON.stringify(data));
+      localStorage.setItem('nabila_porto_v7', JSON.stringify(data));
     } catch (e) {
       console.warn('Could not save to localStorage', e);
     }
