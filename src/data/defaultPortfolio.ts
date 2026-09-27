@@ -31,7 +31,7 @@ export const initialPortfolioData: PortfolioData = {
     stats: [
       { label: 'Featured Projects', value: '5+', subtext: 'ETL Pipelines, Web, UI/UX & Analytics' },
       { label: 'University', value: 'BINUS', subtext: 'Computer Science Department' },
-      { label: 'Core Focus', value: 'UI/UX & Data', subtext: 'Human-Centered & Data-Driven' },
+      { label: 'Core Focus', value: 'Data & UI/UX', subtext: 'Human-Centered & Data-Driven' },
     ],
   },
   projects: [
