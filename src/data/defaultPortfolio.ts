@@ -10,7 +10,7 @@ import cvImage from '../assets/images/CV_Nabila Tazkiah Rahmah.png';
 export const initialPortfolioData: PortfolioData = {
   profile: {
     name: 'Nabila Tazkiah Rahmah',
-    title: 'Computer Science Student & UI/UX Designer',
+    title: 'Computer Science Student',
     institution: 'Bina Nusantara University',
     tagline: 'Transforming complex data into meaningful insights and crafting human-centered digital experiences.',
     bio: 'I am Nabila Tazkiah Rahmah, a Computer Science student at Bina Nusantara University. My interests lie in UI/UX design and data analytics, where I enjoy transforming complex data into meaningful insights and create impactful digital solutions that are not only functional but also designed with a user-friendly interface. I am committed to continuously developing my skills, whether in data analytics, UI/UX design, or other areas of computer science, to grow both technically and personally.',
@@ -19,7 +19,7 @@ export const initialPortfolioData: PortfolioData = {
     email: 'nabilatazkiahrahmah@gmail.com',
     phone: '085772311049',
     availableForHire: true,
-    availabilityText: 'Open for UI/UX, Data Analytics & Tech Roles',
+    availabilityText: 'Open for Data Analytics, UI/UX, & Tech Roles',
     cvUrl: '',
     cvImageUrl: cvImage,
     socials: [
@@ -47,10 +47,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectAirQuality,
       tags: ['Pentaho Spoon ETL', 'phpMyAdmin', 'Power BI', 'MySQL', 'Automated Pipeline'],
       metrics: 'Integrated 5 Monitoring Stations Across Jakarta',
-      liveUrl: 'https://github.com/pujeje',
+      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject&ga=1',
       links: [
-        { label: 'GitHub Repository', url: 'https://github.com/pujeje', type: 'github' },
-        { label: 'Power BI Dashboard', url: '', type: 'powerbi' },
+        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Ac%5Fid%2FDocuments%2FProject&ga=1', type: 'github' }
       ],
       deliverables: [
         'Automated ETL Workflow via Pentaho Spoon',
@@ -73,10 +72,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectFinTrack,
       tags: ['Python Backend', 'HTML & CSS', 'SQLite Database', 'Responsive Web', 'Full-stack'],
       metrics: 'Lightweight UI & Evaluated Through Live Demo Presentation',
-      liveUrl: 'https://github.com/pujeje',
+      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Ac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1',
       links: [
-        { label: 'GitHub Repository', url: 'https://github.com/pujeje', type: 'github' },
-        { label: 'Live Demo', url: '', type: 'demo' },
+        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Ac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1', type: 'github' }
       ],
       deliverables: [
         'Responsive Frontend Architecture (HTML & CSS)',
@@ -99,9 +97,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectAcademicFigma,
       tags: ['Figma', 'UI/UX Design', 'Academic Dashboard', 'Design Systems', 'Prototyping'],
       metrics: '4 Cohesive Web Interfaces with Unified Design Guidelines',
-      liveUrl: 'https://www.figma.com',
+      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Figma&ga=1',
       links: [
-        { label: 'Figma Prototype', url: 'https://www.figma.com', type: 'figma' },
+        { label: 'Figma Prototype', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Figma&ga=1', type: 'figma' },
       ],
       deliverables: [
         'Academic Student Portal & Schedule Dashboard',
@@ -124,10 +122,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectRetailSales,
       tags: ['Power BI', 'Data Cleaning', 'Kaggle Dataset', 'Sales Trends', 'Business Intelligence'],
       metrics: 'Turned Complex Raw Datasets into Strategic Actionable Insights',
-      liveUrl: '',
+      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Data%20Analytics%20%26%20Data%20Visualization&ga=1',
       links: [
-        { label: 'Power BI Dashboard', url: '', type: 'powerbi' },
-        { label: 'Dataset (Kaggle)', url: 'https://www.kaggle.com', type: 'external' },
+        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Data%20Analytics%20%26%20Data%20Visualization&ga=1', type: 'powerbi' }
       ],
       deliverables: [
         'Data Cleaning & Preprocessing Workflow',
@@ -149,13 +146,13 @@ export const initialPortfolioData: PortfolioData = {
       description: 'I taught five tutoring sessions for second-grade students, focusing on basic mathematics. This program fostered communication, empathy, and teamwork while providing social impact through education. This experience taught me how to adapt my teaching to young students, manage the classroom atmosphere, and appreciate the importance of contributing to community development.',
       image: projectVolunteer,
       tags: ['Social Impact', 'Volunteer Teaching', 'Public Communication', 'Empathy', 'Teamwork'],
-      metrics: '5 Interactive Tutoring Sessions for 2nd Grade Students',
+      metrics: 'Interactive Tutoring Sessions for 2nd Grade Students',
       liveUrl: '',
       links: [
         { label: 'Documentation & Activities', url: '', type: 'drive' },
       ],
       deliverables: [
-        '5 Interactive Math Tutoring Sessions',
+        'Interactive Math Tutoring Sessions',
         'Engaging Educational Games & Activities',
         'Classroom Atmosphere & Empathy Management',
         'Community Social Development Impact',
