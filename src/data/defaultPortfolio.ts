@@ -49,7 +49,7 @@ export const initialPortfolioData: PortfolioData = {
       metrics: 'Integrated 5 Monitoring Stations Across Jakarta',
       liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject&ga=1',
       links: [
-        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Ac%5Fid%2FDocuments%2FProject&ga=1', type: 'github' }
+        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject&ga=1', type: 'url' }
       ],
       deliverables: [
         'Automated ETL Workflow via Pentaho Spoon',
@@ -72,9 +72,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectFinTrack,
       tags: ['Python Backend', 'HTML & CSS', 'SQLite Database', 'Responsive Web', 'Full-stack'],
       metrics: 'Lightweight UI & Evaluated Through Live Demo Presentation',
-      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Ac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1',
+      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1',
       links: [
-        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Ac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1', type: 'github' }
+        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1', type: 'url' }
       ],
       deliverables: [
         'Responsive Frontend Architecture (HTML & CSS)',
