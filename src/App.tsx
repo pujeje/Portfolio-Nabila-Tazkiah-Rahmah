@@ -13,50 +13,25 @@ import { getTheme } from './utils/themeConfig';
 import { Check, Sun, Moon } from 'lucide-react';
 
 export default function App() {
-  const [data, setData] = useState<PortfolioData>(() => {
-    // Clear out outdated previous cache versions if present
+  const [data, setData] = useState<PortfolioData>(initialPortfolioData);
+
+  // Clear legacy cache so browser always loads the latest code changes
+  useEffect(() => {
     try {
-      localStorage.removeItem('nabila_porto_v6');
-      localStorage.removeItem('nabila_porto_v5_en');
-      localStorage.removeItem('nabila_porto_v4_en');
+      [
+        'nabila_porto_v8',
+        'nabila_porto_v7',
+        'nabila_porto_v6',
+        'nabila_porto_v5_en',
+        'nabila_porto_v4_en',
+      ].forEach((key) => localStorage.removeItem(key));
     } catch (_) {}
+  }, []);
 
-    const saved = localStorage.getItem('nabila_porto_v7');
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved);
-        if (parsed && parsed.profile && Array.isArray(parsed.projects) && parsed.projects.length > 0) {
-          const mergedProjects = initialPortfolioData.projects.map((initialProj) => {
-            const savedProj = parsed.projects.find((p: { id: string }) => p.id === initialProj.id);
-            if (!savedProj) return initialProj;
-            return {
-              ...initialProj,
-              ...savedProj,
-              image: initialProj.image,
-              links: savedProj.links && savedProj.links.length > 0 ? savedProj.links : initialProj.links,
-              liveUrl: savedProj.liveUrl || initialProj.liveUrl,
-            };
-          });
-
-          return {
-            ...initialPortfolioData,
-            ...parsed,
-            projects: mergedProjects,
-            profile: {
-              ...initialPortfolioData.profile,
-              ...(parsed.profile || {}),
-              avatarUrl: initialPortfolioData.profile.avatarUrl,
-              cvImageUrl: initialPortfolioData.profile.cvImageUrl,
-              socials: initialPortfolioData.profile.socials,
-            },
-          };
-        }
-      } catch (e) {
-        console.error('Failed to parse local portfolio data', e);
-      }
-    }
-    return initialPortfolioData;
-  });
+  // Update data state whenever initialPortfolioData changes
+  useEffect(() => {
+    setData(initialPortfolioData);
+  }, []);
 
   const [isDark, setIsDark] = useState<boolean>(() => {
     const saved = localStorage.getItem('nabila_dark_mode');
@@ -77,14 +52,6 @@ export default function App() {
 
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
-
-  useEffect(() => {
-    try {
-      localStorage.setItem('nabila_porto_v7', JSON.stringify(data));
-    } catch (e) {
-      console.warn('Could not save to localStorage', e);
-    }
-  }, [data]);
 
   useEffect(() => {
     try {
