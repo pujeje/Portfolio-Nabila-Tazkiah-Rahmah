@@ -47,9 +47,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectAirQuality,
       tags: ['Pentaho Spoon ETL', 'phpMyAdmin', 'Power BI', 'MySQL', 'Automated Pipeline'],
       metrics: 'Integrated 5 Monitoring Stations Across Jakarta',
-      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject&ga=1',
+      liveUrl: 'https://github.com/pujeje/Project-Data-Engineering',
       links: [
-        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject&ga=1', type: 'url' }
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Data-Engineering', type: 'url' }
       ],
       deliverables: [
         'Automated ETL Workflow via Pentaho Spoon',
@@ -72,9 +72,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectFinTrack,
       tags: ['Python Backend', 'HTML & CSS', 'SQLite Database', 'Responsive Web', 'Full-stack'],
       metrics: 'Lightweight UI & Evaluated Through Live Demo Presentation',
-      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1',
+      liveUrl: 'https://github.com/pujeje/Project-Software-Engineering-Kelompok-12',
       links: [
-        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Software%20Engineering&ga=1', type: 'url' }
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Software-Engineering-Kelompok-12', type: 'url' }
       ],
       deliverables: [
         'Responsive Frontend Architecture (HTML & CSS)',
@@ -86,9 +86,9 @@ export const initialPortfolioData: PortfolioData = {
       solution: 'Created an uncluttered, modern interface with categorized spending donut charts, quick summary cards, and friction-free navigation.',
     },
     {
-      id: 'academic-dashboard-figma',
-      title: 'Academic Dashboard & Multi-Website Designs',
-      category: 'UI/UX & Product Design',
+      id: 'UI/UX Design Figma Projects',
+      title: 'Multi-Website Designs',
+      category: 'UI/UX Design',
       year: '2024 – 2026',
       role: 'UI/UX Designer',
       projectType: 'Individual & Collaborative Projects',
@@ -97,9 +97,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectAcademicFigma,
       tags: ['Figma', 'UI/UX Design', 'Academic Dashboard', 'Design Systems', 'Prototyping'],
       metrics: '4 Cohesive Web Interfaces with Unified Design Guidelines',
-      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Figma&ga=1',
+      liveUrl: 'https://github.com/pujeje/Project-UI-UX-Design',
       links: [
-        { label: 'Figma Prototype', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Figma&ga=1', type: 'figma' },
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-UI-UX-Design', type: 'figma' },
       ],
       deliverables: [
         'Academic Student Portal & Schedule Dashboard',
@@ -122,9 +122,9 @@ export const initialPortfolioData: PortfolioData = {
       image: projectRetailSales,
       tags: ['Tableau', 'Data Cleaning', 'Kaggle Dataset', 'Sales Trends', 'Business Intelligence'],
       metrics: 'Turned Complex Raw Datasets into Strategic Actionable Insights',
-      liveUrl: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Data%20Analytics%20%26%20Data%20Visualization&ga=1',
+      liveUrl: 'https://github.com/pujeje/Project-Data-Analytics-Data-Visualization',
       links: [
-        { label: 'Project Documentation', url: 'https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fnabila%5Frahmah001%5Fbinus%5Fac%5Fid%2FDocuments%2FProject%20Data%20Analytics%20%26%20Data%20Visualization&ga=1', type: 'powerbi' }
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Data-Analytics-Data-Visualization', type: 'tableau' }
       ],
       deliverables: [
         'Data Cleaning & Preprocessing Workflow',
