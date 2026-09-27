@@ -49,7 +49,7 @@ export const initialPortfolioData: PortfolioData = {
       metrics: 'Integrated 5 Monitoring Stations Across Jakarta',
       liveUrl: 'https://github.com/pujeje/Project-Data-Engineering',
       links: [
-        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Data-Engineering', type: 'url' }
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Data-Engineering', type: 'github' }
       ],
       deliverables: [
         'Automated ETL Workflow via Pentaho Spoon',
@@ -74,7 +74,7 @@ export const initialPortfolioData: PortfolioData = {
       metrics: 'Lightweight UI & Evaluated Through Live Demo Presentation',
       liveUrl: 'https://github.com/pujeje/Project-Software-Engineering-Kelompok-12',
       links: [
-        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Software-Engineering-Kelompok-12', type: 'url' }
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Software-Engineering-Kelompok-12', type: 'github' }
       ],
       deliverables: [
         'Responsive Frontend Architecture (HTML & CSS)',
@@ -99,13 +99,13 @@ export const initialPortfolioData: PortfolioData = {
       metrics: '4 Cohesive Web Interfaces with Unified Design Guidelines',
       liveUrl: 'https://github.com/pujeje/Project-UI-UX-Design',
       links: [
-        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-UI-UX-Design', type: 'figma' },
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-UI-UX-Design', type: 'github' },
       ],
       deliverables: [
-        'Academic Student Portal & Schedule Dashboard',
-        'Mobile E-Commerce Plant Store (Floral & Co)',
-        'Coffee Shop & F&B Digital Menu Experience',
-        'High-Fidelity Interactive Prototypes in Figma',
+        'EduPro - Academic Student Portal & Schedule Dashboard',
+        'Floral & Co - Mobile E-Commerce Plant Store',
+        'Mr.Coffee - Coffee Shop Digital Menu Experience',
+        'SmartSpense -  AI Daily Finance Tracker',
       ],
       challenge: 'Balancing data-heavy student schedules and grade metrics with clean, approachable aesthetics that prevent cognitive overload.',
       solution: 'Structured a modular card system with soft eye-friendly pastel tones and deliberate typographic hierarchy for effortless navigation.',
@@ -124,7 +124,7 @@ export const initialPortfolioData: PortfolioData = {
       metrics: 'Turned Complex Raw Datasets into Strategic Actionable Insights',
       liveUrl: 'https://github.com/pujeje/Project-Data-Analytics-Data-Visualization',
       links: [
-        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Data-Analytics-Data-Visualization', type: 'tableau' }
+        { label: 'Github Repository', url: 'https://github.com/pujeje/Project-Data-Analytics-Data-Visualization', type: 'github' }
       ],
       deliverables: [
         'Data Cleaning & Preprocessing Workflow',
