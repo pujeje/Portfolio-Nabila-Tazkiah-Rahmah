@@ -1,0 +1,6 @@
+{
+  "name": "Portofolio Studio & PDF Importer",
+  "description": "Website portofolio interaktif dan modern dengan fitur import langsung dari file PDF atau kustomisasi live.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
